@@ -95,5 +95,13 @@
     "flexProps": {
       "justifyContent": "CENTER"
     }
+  },
+  ".flBookCover1": {
+    "flexProps": {
+      "positionType": "RELATIVE"
+    },
+    "flex": {
+      "positionType": 0
+    }
   }
 }

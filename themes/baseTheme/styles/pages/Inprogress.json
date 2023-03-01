@@ -1,0 +1,31 @@
+{
+  "#inprogress": {
+    "&-gviBookCover": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-lblNextUp": {
+      "height": 70,
+      "textColor": "${black}",
+      "font": {
+        "size": 25
+      },
+      "marginTop": 15
+    },
+    "&-bottomTabbar": {
+      "flexProps": {
+        "positionType": "RELATIVE"
+      },
+      "flex": {
+        "positionType": 0
+      }
+    },
+    "&-gvInProgress": {
+      "height": 250
+    }
+  }
+}

@@ -7,7 +7,8 @@
 			"props": {
 				"children": [
 					"5e7a-1a05-78fe-5478",
-					"8572-d053-765a-f042"
+					"8572-d053-765a-f042",
+					"db59-a855-965e-1d92"
 				],
 				"name": "bookdetail",
 				"orientation": "PORTRAIT",
@@ -36,13 +37,77 @@
 				"children": [],
 				"isRemovable": false,
 				"name": "headerBar",
-				"parent": "e515-337e-3b1f-f076",
-				"title": "bookdetail"
+				"parent": "e515-337e-3b1f-f076"
 			},
 			"type": "HeaderBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "db59-a855-965e-1d92",
+			"props": {
+				"children": [
+					"f739-de4b-6087-c57c",
+					"adc4-2f32-756b-14cb",
+					"d778-b67b-0405-6108",
+					"20c5-3a0e-6f92-3ec8"
+				],
+				"name": "flexLayout1",
+				"parent": "e515-337e-3b1f-f076"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-flexLayout",
+			"id": "f739-de4b-6087-c57c",
+			"props": {
+				"children": [],
+				"name": "flexLayout2",
+				"parent": "db59-a855-965e-1d92"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-label",
+			"id": "adc4-2f32-756b-14cb",
+			"props": {
+				"children": [],
+				"name": "label2",
+				"parent": "db59-a855-965e-1d92",
+				"text": "label2"
+			},
+			"type": "Label",
 			"userProps": {
-				"title": "bookdetail"
+				"text": "label2"
 			}
+		},
+		{
+			"className": ".sf-label",
+			"id": "d778-b67b-0405-6108",
+			"props": {
+				"children": [],
+				"name": "label1",
+				"parent": "db59-a855-965e-1d92",
+				"text": "label1"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "label1"
+			}
+		},
+		{
+			"className": ".sf-imageView .flBookCover-imgBookCover .gviBookCover",
+			"id": "20c5-3a0e-6f92-3ec8",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgCover",
+				"parent": "db59-a855-965e-1d92"
+			},
+			"type": "ImageView",
+			"userProps": {}
 		}
 	]
 }

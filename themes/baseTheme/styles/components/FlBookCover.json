@@ -1,0 +1,22 @@
+{
+  ".flBookCover": {
+    "&-imgBookCover": {
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "imageFillType": "ASPECTFIT"
+    },
+    "flexProps": {
+      "flexGrow": 1,
+      "alignItems": "STRETCH",
+      "justifyContent": "CENTER"
+    },
+    "&-activityIndicator1": {
+      "flexProps": {
+        "positionType": "ABSOLUTE",
+        "alignSelf": "CENTER"
+      },
+      "color": "${mainColor}"
+    }
+  }
+}

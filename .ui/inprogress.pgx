@@ -5,16 +5,24 @@
 			"id": "cd64-3f68-37c2-3693",
 			"initialized": true,
 			"props": {
+				"bottomTabbarEnabled": true,
 				"children": [
 					"25f1-a32a-24d3-d8bc",
-					"2fc5-d1aa-10ac-145e"
+					"2fc5-d1aa-10ac-145e",
+					"a906-a862-4c92-ba71",
+					"6932-9a3e-fba5-db45",
+					"6746-3506-65eb-fc0d",
+					"dfcb-8386-95c0-e36e",
+					"59da-d56d-e6ca-b08e"
 				],
 				"name": "inprogress",
 				"orientation": "PORTRAIT",
 				"parent": null
 			},
 			"type": "Page",
-			"userProps": {},
+			"userProps": {
+				"bottomTabbarEnabled": true
+			},
 			"version": "0.11.1"
 		},
 		{
@@ -42,6 +50,162 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "In Progress"
+			}
+		},
+		{
+			"className": ".sf-searchView",
+			"id": "a906-a862-4c92-ba71",
+			"props": {
+				"children": [],
+				"hint": "Search",
+				"name": "searchView1",
+				"parent": "cd64-3f68-37c2-3693"
+			},
+			"type": "SearchView",
+			"userProps": {
+				"hint": "Search"
+			}
+		},
+		{
+			"className": ".sf-gridView #inprogress-gvInProgress",
+			"id": "6932-9a3e-fba5-db45",
+			"oldName": "gridView1",
+			"props": {
+				"children": [
+					"ea94-e054-35c0-7bad"
+				],
+				"itemCount": 0,
+				"itemLength": 150,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				},
+				"name": "gvInProgress",
+				"parent": "cd64-3f68-37c2-3693"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 0,
+				"itemLength": 150,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				}
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gviBookCover #inprogress-gviBookCover",
+			"hiddenComponent": false,
+			"id": "ea94-e054-35c0-7bad",
+			"props": {
+				"children": [],
+				"name": "gviBookCover",
+				"parent": "6932-9a3e-fba5-db45"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gviBookCover",
+				"id": "e46a-5f15-1d9e-6263"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-label #inprogress-lblNextUp",
+			"id": "6746-3506-65eb-fc0d",
+			"oldName": "label1",
+			"props": {
+				"children": [],
+				"name": "lblNextUp",
+				"parent": "cd64-3f68-37c2-3693",
+				"text": "Next Up"
+			},
+			"type": "Label",
+			"userProps": {
+				"text": "Next Up"
+			}
+		},
+		{
+			"className": ".sf-gridView #inprogress-gvInProgress",
+			"id": "dfcb-8386-95c0-e36e",
+			"oldName": "gvInProgress_1",
+			"props": {
+				"children": [
+					"513c-2417-6f7c-6344"
+				],
+				"itemCount": 0,
+				"itemLength": 150,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				},
+				"name": "gvNextUp",
+				"parent": "cd64-3f68-37c2-3693"
+			},
+			"type": "GridView",
+			"userProps": {
+				"itemCount": 0,
+				"itemLength": 150,
+				"layoutManager": {
+					"spanCount": 1,
+					"scrollDirection": "HORIZONTAL"
+				}
+			}
+		},
+		{
+			"className": ".sf-gridViewItem .gviBookCover #inprogress-gviBookCover",
+			"hiddenComponent": false,
+			"id": "513c-2417-6f7c-6344",
+			"oldName": "gviBookCover_1",
+			"props": {
+				"children": [],
+				"name": "gviBookCover1",
+				"parent": "dfcb-8386-95c0-e36e"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "gviBookCover",
+				"id": "e46a-5f15-1d9e-6263"
+			},
+			"type": "GridViewItem",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
+			}
+		},
+		{
+			"className": ".sf-bottomTabbar .bottomTabbar #inprogress-bottomTabbar",
+			"hiddenComponent": false,
+			"id": "59da-d56d-e6ca-b08e",
+			"props": {
+				"children": [],
+				"name": "bottomTabbar",
+				"parent": "cd64-3f68-37c2-3693"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "bottomTabbar",
+				"id": "92ca-d60c-7ad7-8c4c"
+			},
+			"type": "BottomTabbar",
+			"userProps": {
+				"flex": {
+					"positionType": 0
+				},
+				"flexProps": {
+					"positionType": "RELATIVE"
+				}
 			}
 		}
 	]

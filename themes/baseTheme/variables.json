@@ -4,5 +4,6 @@
   "mainDark": "#0073be",
   "mainTextColor": "rgba(210, 210, 210, 1)",
   "mainInactive": "rgba(154,154,154,1)",
-  "white": "#ffffff"
+  "white": "#ffffff",
+  "black": "#000000"
 }

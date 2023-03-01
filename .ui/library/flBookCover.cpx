@@ -1,0 +1,55 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .flBookCover",
+			"hiddenComponent": true,
+			"id": "6226-9630-538f-7553",
+			"props": {
+				"children": [
+					"4c5b-9e71-ba89-3fb0",
+					"4d48-e16f-4b14-d37d"
+				],
+				"name": "flBookCover",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 3.39,
+				"top": 206.78
+			}
+		},
+		{
+			"className": ".sf-imageView .flBookCover-imgBookCover",
+			"id": "4c5b-9e71-ba89-3fb0",
+			"oldName": "imageView1",
+			"props": {
+				"children": [],
+				"name": "imgBookCover",
+				"parent": "6226-9630-538f-7553"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ImageView",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-activityIndicator .flBookCover-activityIndicator1",
+			"id": "4d48-e16f-4b14-d37d",
+			"oldName": "activityIndicator1",
+			"props": {
+				"children": [],
+				"name": "indicator",
+				"parent": "6226-9630-538f-7553"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "ActivityIndicator",
+			"userProps": {}
+		}
+	]
+}

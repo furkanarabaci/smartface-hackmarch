@@ -1,0 +1,10 @@
+{
+  ".gviBookCover": {
+    "width": 170,
+    "height": 250,
+    "paddingRight": 20,
+    "flexProps": {
+      "flexGrow": 0
+    }
+  }
+}
