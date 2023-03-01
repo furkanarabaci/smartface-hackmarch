@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "e515-337e-3b1f-f076",
+			"initialized": true,
+			"props": {
+				"children": [
+					"5e7a-1a05-78fe-5478",
+					"8572-d053-765a-f042"
+				],
+				"name": "bookdetail",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.11.1"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "5e7a-1a05-78fe-5478",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "e515-337e-3b1f-f076"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "8572-d053-765a-f042",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "e515-337e-3b1f-f076",
+				"title": "bookdetail"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "bookdetail"
+			}
+		}
+	]
+}

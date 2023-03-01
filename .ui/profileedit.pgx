@@ -1,0 +1,98 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "0609-59cd-41e0-114a",
+			"userProps": {},
+			"className": ".sf-page",
+			"props": {
+				"name": "profileedit",
+				"parent": null,
+				"children": [
+					"f6d4-226d-c8d9-ec5c",
+					"4f7e-928b-6d6a-d460"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.11.1",
+			"initialized": false
+		},
+		{
+			"type": "StatusBar",
+			"id": "f6d4-226d-c8d9-ec5c",
+			"userProps": {},
+			"className": ".sf-statusBar",
+			"props": {
+				"name": "statusBar",
+				"parent": "0609-59cd-41e0-114a",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "4f7e-928b-6d6a-d460",
+			"userProps": {
+				"title": "profileedit"
+			},
+			"className": ".sf-headerBar",
+			"props": {
+				"name": "headerBar",
+				"parent": "0609-59cd-41e0-114a",
+				"children": [],
+				"title": "profileedit",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	],
+	"componentByID": {
+		"563a-7589-d742-f830": {
+			"type": "Page",
+			"id": "0609-59cd-41e0-114a",
+			"userProps": {},
+			"className": ".sf-page",
+			"props": {
+				"name": "profileedit",
+				"parent": null,
+				"children": [
+					"f6d4-226d-c8d9-ec5c",
+					"4f7e-928b-6d6a-d460"
+				],
+				"orientation": "PORTRAIT"
+			},
+			"version": "0.11.1",
+			"initialized": false
+		},
+		"8dac-0085-8bed-bda4": {
+			"type": "StatusBar",
+			"id": "f6d4-226d-c8d9-ec5c",
+			"userProps": {},
+			"className": ".sf-statusBar",
+			"props": {
+				"name": "statusBar",
+				"parent": "0609-59cd-41e0-114a",
+				"children": [],
+				"visible": true,
+				"isRemovable": false
+			}
+		},
+		"06e7-5c24-ffa8-0367": {
+			"type": "HeaderBar",
+			"id": "4f7e-928b-6d6a-d460",
+			"userProps": {
+				"title": "profileedit"
+			},
+			"className": ".sf-headerBar",
+			"props": {
+				"name": "headerBar",
+				"parent": "0609-59cd-41e0-114a",
+				"children": [],
+				"title": "profileedit",
+				"visible": true,
+				"isRemovable": false
+			}
+		}
+	}
+}
