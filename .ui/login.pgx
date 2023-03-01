@@ -1,98 +1,48 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "573f-8622-aff3-f82d",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "573f-8622-aff3-f82d",
+			"initialized": true,
 			"props": {
-				"name": "login",
-				"parent": null,
 				"children": [
 					"c221-2ff7-ba68-118d",
 					"7d3b-1f47-5dcf-1f44"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "c221-2ff7-ba68-118d",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "573f-8622-aff3-f82d",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "7d3b-1f47-5dcf-1f44",
-			"userProps": {
-				"title": "login"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "573f-8622-aff3-f82d",
-				"children": [],
-				"title": "login",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"40cb-f460-f81b-bbff": {
-			"type": "Page",
-			"id": "573f-8622-aff3-f82d",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "login",
-				"parent": null,
-				"children": [
-					"c221-2ff7-ba68-118d",
-					"7d3b-1f47-5dcf-1f44"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		"48ad-aae8-e27a-13fb": {
-			"type": "StatusBar",
-			"id": "c221-2ff7-ba68-118d",
+			"type": "Page",
 			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "573f-8622-aff3-f82d",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
+			"version": "0.11.1"
 		},
-		"b6f6-a6f2-4c53-4308": {
-			"type": "HeaderBar",
-			"id": "7d3b-1f47-5dcf-1f44",
-			"userProps": {
-				"title": "login"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-statusBar",
+			"id": "c221-2ff7-ba68-118d",
 			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "573f-8622-aff3-f82d"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "7d3b-1f47-5dcf-1f44",
+			"props": {
+				"children": [],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "573f-8622-aff3-f82d",
-				"children": [],
-				"title": "login",
-				"visible": true,
-				"isRemovable": false
+				"title": "Login"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Login"
 			}
 		}
-	}
+	]
 }

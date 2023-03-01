@@ -1,98 +1,48 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "f6c2-ac0a-3a63-70fa",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "f6c2-ac0a-3a63-70fa",
+			"initialized": true,
 			"props": {
-				"name": "reviews",
-				"parent": null,
 				"children": [
 					"cde0-c5f9-56b8-8a59",
 					"afc5-f48d-5b63-14c8"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "cde0-c5f9-56b8-8a59",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "f6c2-ac0a-3a63-70fa",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "afc5-f48d-5b63-14c8",
-			"userProps": {
-				"title": "reviews"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "f6c2-ac0a-3a63-70fa",
-				"children": [],
-				"title": "reviews",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"98f7-7957-8103-8eae": {
-			"type": "Page",
-			"id": "f6c2-ac0a-3a63-70fa",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "reviews",
-				"parent": null,
-				"children": [
-					"cde0-c5f9-56b8-8a59",
-					"afc5-f48d-5b63-14c8"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		"5e09-7471-fbfc-77c3": {
-			"type": "StatusBar",
-			"id": "cde0-c5f9-56b8-8a59",
+			"type": "Page",
 			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "f6c2-ac0a-3a63-70fa",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
+			"version": "0.11.1"
 		},
-		"8d94-db1b-8f84-efcd": {
-			"type": "HeaderBar",
-			"id": "afc5-f48d-5b63-14c8",
-			"userProps": {
-				"title": "reviews"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-statusBar",
+			"id": "cde0-c5f9-56b8-8a59",
 			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "f6c2-ac0a-3a63-70fa"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "afc5-f48d-5b63-14c8",
+			"props": {
+				"children": [],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "f6c2-ac0a-3a63-70fa",
-				"children": [],
-				"title": "reviews",
-				"visible": true,
-				"isRemovable": false
+				"title": "Reviews"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Reviews"
 			}
 		}
-	}
+	]
 }

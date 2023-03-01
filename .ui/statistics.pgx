@@ -1,98 +1,48 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "0805-a567-f8c6-3e6c",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "0805-a567-f8c6-3e6c",
+			"initialized": true,
 			"props": {
-				"name": "statistics",
-				"parent": null,
 				"children": [
 					"f8b5-969a-4790-bb5e",
 					"572b-fe18-8d45-171a"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "f8b5-969a-4790-bb5e",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "0805-a567-f8c6-3e6c",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "572b-fe18-8d45-171a",
-			"userProps": {
-				"title": "statistics"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "0805-a567-f8c6-3e6c",
-				"children": [],
-				"title": "statistics",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"f170-3641-d1bd-1c92": {
-			"type": "Page",
-			"id": "0805-a567-f8c6-3e6c",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "statistics",
-				"parent": null,
-				"children": [
-					"f8b5-969a-4790-bb5e",
-					"572b-fe18-8d45-171a"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		"8849-31e1-e3a8-418e": {
-			"type": "StatusBar",
-			"id": "f8b5-969a-4790-bb5e",
+			"type": "Page",
 			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "0805-a567-f8c6-3e6c",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
+			"version": "0.11.1"
 		},
-		"378b-431e-3b52-67a7": {
-			"type": "HeaderBar",
-			"id": "572b-fe18-8d45-171a",
-			"userProps": {
-				"title": "statistics"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-statusBar",
+			"id": "f8b5-969a-4790-bb5e",
 			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "0805-a567-f8c6-3e6c"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "572b-fe18-8d45-171a",
+			"props": {
+				"children": [],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "0805-a567-f8c6-3e6c",
-				"children": [],
-				"title": "statistics",
-				"visible": true,
-				"isRemovable": false
+				"title": "Statistics"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Statistics"
 			}
 		}
-	}
+	]
 }

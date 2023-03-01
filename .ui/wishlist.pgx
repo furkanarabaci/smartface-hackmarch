@@ -1,98 +1,48 @@
 {
 	"components": [
 		{
-			"type": "Page",
-			"id": "c234-a5ea-d0d4-2190",
-			"userProps": {},
 			"className": ".sf-page",
+			"id": "c234-a5ea-d0d4-2190",
+			"initialized": true,
 			"props": {
-				"name": "wishlist",
-				"parent": null,
 				"children": [
 					"062f-6480-9fc2-95d1",
 					"d93d-44b4-af0f-a908"
 				],
-				"orientation": "PORTRAIT"
-			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		{
-			"type": "StatusBar",
-			"id": "062f-6480-9fc2-95d1",
-			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "c234-a5ea-d0d4-2190",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
-		},
-		{
-			"type": "HeaderBar",
-			"id": "d93d-44b4-af0f-a908",
-			"userProps": {
-				"title": "wishlist"
-			},
-			"className": ".sf-headerBar",
-			"props": {
-				"name": "headerBar",
-				"parent": "c234-a5ea-d0d4-2190",
-				"children": [],
-				"title": "wishlist",
-				"visible": true,
-				"isRemovable": false
-			}
-		}
-	],
-	"componentByID": {
-		"6d0a-5bac-ac68-f3bb": {
-			"type": "Page",
-			"id": "c234-a5ea-d0d4-2190",
-			"userProps": {},
-			"className": ".sf-page",
-			"props": {
 				"name": "wishlist",
-				"parent": null,
-				"children": [
-					"062f-6480-9fc2-95d1",
-					"d93d-44b4-af0f-a908"
-				],
-				"orientation": "PORTRAIT"
+				"orientation": "PORTRAIT",
+				"parent": null
 			},
-			"version": "0.11.1",
-			"initialized": false
-		},
-		"db05-8214-c22c-5327": {
-			"type": "StatusBar",
-			"id": "062f-6480-9fc2-95d1",
+			"type": "Page",
 			"userProps": {},
-			"className": ".sf-statusBar",
-			"props": {
-				"name": "statusBar",
-				"parent": "c234-a5ea-d0d4-2190",
-				"children": [],
-				"visible": true,
-				"isRemovable": false
-			}
+			"version": "0.11.1"
 		},
-		"8557-8c34-9560-defd": {
-			"type": "HeaderBar",
-			"id": "d93d-44b4-af0f-a908",
-			"userProps": {
-				"title": "wishlist"
-			},
-			"className": ".sf-headerBar",
+		{
+			"className": ".sf-statusBar",
+			"id": "062f-6480-9fc2-95d1",
 			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "c234-a5ea-d0d4-2190"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "d93d-44b4-af0f-a908",
+			"props": {
+				"children": [],
+				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "c234-a5ea-d0d4-2190",
-				"children": [],
-				"title": "wishlist",
-				"visible": true,
-				"isRemovable": false
+				"title": "Wishlist"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Wishlist"
 			}
 		}
-	}
+	]
 }
