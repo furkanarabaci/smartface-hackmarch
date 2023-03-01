@@ -43,7 +43,9 @@ export default class Inprogress extends withDismissAndBackButton(InprogressDesig
     }
     this.gvInProgress.onItemSelected = (item: GviBookCover, index: number) => {
       const currentBook = this.inprogressbooks[index];
-      this.router.push('detail', currentBook)
+      if (currentBook) {
+        this.router.push('detail', currentBook)
+      }
     }
   }
 
@@ -55,10 +57,12 @@ export default class Inprogress extends withDismissAndBackButton(InprogressDesig
     }
     this.gvNextUp.onItemSelected = (item: GviBookCover, index: number) => {
       const currentBook = this.nextupbooks[index];
-      this.router.push('detail', currentBook)
+      if (currentBook) {
+        this.router.push('detail', currentBook)
+      }
     }
   }
-  
+
   async getInProgressData() {
     const response = await OpenLibraryService.getNextUpBooks();
     this.inprogressbooks = response.docs;
