@@ -1,0 +1,10 @@
+{
+  ".bottomtabbar": {
+    "&-home": {
+      "icon": {
+        "normal": "__sf_gen_img_book.png",
+        "selected": "__sf_gen_img_book.png"
+      }
+    }
+  }
+}

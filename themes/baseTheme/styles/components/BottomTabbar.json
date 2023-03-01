@@ -1,0 +1,22 @@
+{
+  ".bottomTabbar": {
+    "&-bookshelf": {
+      "icon": {
+        "normal": "__sf_gen_img_books_library.png",
+        "selected": "__sf_gen_img_books_library.png"
+      }
+    },
+    "&-saved": {
+      "icon": {
+        "normal": "__sf_gen_img_bookmark.png",
+        "selected": "__sf_gen_img_bookmark.png"
+      }
+    },
+    "&-profile": {
+      "icon": {
+        "normal": "__sf_gen_img_user_profile2.png",
+        "selected": "__sf_gen_img_user_profile2.png"
+      }
+    }
+  }
+}
