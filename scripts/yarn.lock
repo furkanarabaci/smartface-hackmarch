@@ -18,10 +18,10 @@
     "@smartface/styler" "^2.0.0"
     filtrex "^0.5.4"
 
-"@smartface/core@^5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@smartface/core/-/core-5.0.10.tgz#029882940d49efb3aaa46774209942e12fc7a2f0"
-  integrity sha512-mMbsu0DrfH+d18MJkFhXSRDC6M99gIIQzCk4p9r/29wjqokODtRWttTbyTIeBBh0LwWkVmzX4KI0g+CkCgT3yA==
+"@smartface/core@^5.1.0-beta.0":
+  version "5.1.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@smartface/core/-/core-5.1.0-beta.0.tgz#c94896fc1cff75602ee61e89d67ee4743a34d161"
+  integrity sha512-btbhuCBhQuX6ajEllgnjYVMduNn9vnAzGJj9bqSz+RBrvdHo3WZShTVq2B5OEOlOuXtc6zJK/RbMwiCRATRqoQ==
 
 "@smartface/html-to-text@^1.0.0":
   version "1.2.0"
@@ -37,12 +37,12 @@
   dependencies:
     i18next "21.6.15"
 
-"@smartface/mixins@^5.0.10":
-  version "5.0.10"
-  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-5.0.10.tgz#64f19dbad7373ede2209070b9dff7bcca242229f"
-  integrity sha512-XKnupYZj/13q95E9lzphG/ln93OUYnTv3J/3R710DyyarA5yVQirb+fGoOsdjez+SoxIY9EdB/C3Tgm3Oz2a5w==
+"@smartface/mixins@^5.1.0-beta.0":
+  version "5.1.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-5.1.0-beta.0.tgz#a856014c8570136af21743b49ded213ef46f6ed3"
+  integrity sha512-Ff11QE2dGz6rTSbA1zoPkxYn0wU1PKEiZpnICZn9pJmfOgQ4GucFGHoVoKe1zUFdVNvDd92C1hMH538JsIOlDQ==
   dependencies:
-    "@smartface/core" "^5.0.10"
+    "@smartface/core" "^5.1.0-beta.0"
 
 "@smartface/native@5.0.7-beta.5":
   version "5.0.7-beta.5"

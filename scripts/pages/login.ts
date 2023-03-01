@@ -13,7 +13,7 @@ export default class Login extends withDismissAndBackButton(LoginDesign) {
    */
   onShow() {
     super.onShow();
-    // this.initBackButton(this.router); //Addes a back button to the page headerbar.
+    this.initBackButton(this.router); //Addes a back button to the page headerbar.
   }
 
   /**
