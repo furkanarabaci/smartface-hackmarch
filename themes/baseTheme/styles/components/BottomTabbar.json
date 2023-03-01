@@ -17,6 +17,11 @@
         "normal": "__sf_gen_img_user_profile2.png",
         "selected": "__sf_gen_img_user_profile2.png"
       }
+    },
+    "backgroundColor": "#ffffff",
+    "itemColor": {
+      "selected": "${mainColor}",
+      "normal": "${mainInactive}"
     }
   }
 }

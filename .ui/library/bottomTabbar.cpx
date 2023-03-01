@@ -1,10 +1,15 @@
 {
 	"components": [
 		{
-			"className": ".sf-bottomTabbar",
+			"className": ".sf-bottomTabbar .bottomTabbar",
 			"id": "92ca-d60c-7ad7-8c4c",
 			"props": {
-				"children": [],
+				"children": [
+					"4607-8690-0349-1252",
+					"0e33-3971-4ee1-d38f",
+					"a72d-e7c8-ef5a-a424",
+					"b25b-4936-1f84-6140"
+				],
 				"name": "bottomTabbar",
 				"parent": "57f4-201f-4bfc-5fc6"
 			},
@@ -12,6 +17,66 @@
 				"page": "__library__"
 			},
 			"type": "BottomTabbar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomtabbar-home",
+			"id": "4607-8690-0349-1252",
+			"oldName": "tabBarItem4",
+			"props": {
+				"children": [],
+				"name": "home",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-bookshelf",
+			"id": "0e33-3971-4ee1-d38f",
+			"oldName": "tabBarItem3",
+			"props": {
+				"children": [],
+				"name": "bookshelf",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-saved",
+			"id": "a72d-e7c8-ef5a-a424",
+			"oldName": "tabBarItem2",
+			"props": {
+				"children": [],
+				"name": "saved",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-tabbarItem .bottomTabbar-profile",
+			"id": "b25b-4936-1f84-6140",
+			"oldName": "saved_2",
+			"props": {
+				"children": [],
+				"name": "profile",
+				"parent": "92ca-d60c-7ad7-8c4c"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "TabBarItem",
 			"userProps": {}
 		}
 	]

@@ -12,7 +12,7 @@
 				"path": "/",
 				"x": 62.312034012839035,
 				"y": -335.9367188115981,
-				"to": "auth"
+				"to": "main"
 			},
 			"children": [
 				"8393ec2a-5c2c-4ab8-83df-528d6fcab782",
@@ -73,6 +73,7 @@
 			"children": [
 				"d5f8891d-e5e6-4a47-995c-3a70e1bd9f21",
 				"c236d866-990a-4c5f-8e9d-980d3b88d6d8",
+				"349ad176-bd6e-48da-9e9d-0961d32d6ca5",
 				"17c151f5-0fd6-4472-8177-ad6c97524311"
 			],
 			"isDirty": false,
@@ -146,8 +147,8 @@
 				"path": "shelf",
 				"x": 530.4270607758099,
 				"y": -185.59581276515632,
-				"homeRoute": "detail",
-				"to": "inprogress"
+				"homeRoute": "main",
+				"to": "main"
 			},
 			"parent": "045d10c0-6f69-48f9-b39f-da8ef9a06b9d"
 		},
@@ -166,6 +167,39 @@
 			},
 			"parent": "c236d866-990a-4c5f-8e9d-980d3b88d6d8"
 		},
+		"349ad176-bd6e-48da-9e9d-0961d32d6ca5": {
+			"id": "349ad176-bd6e-48da-9e9d-0961d32d6ca5",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "saved",
+			"children": [
+				"0be5bf76-8669-4730-b8e7-585e30825ed0"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "saved",
+				"x": 262.7072400243243,
+				"y": 55.352544442070624,
+				"homeRoute": "main",
+				"to": "main"
+			},
+			"parent": "045d10c0-6f69-48f9-b39f-da8ef9a06b9d"
+		},
+		"0be5bf76-8669-4730-b8e7-585e30825ed0": {
+			"id": "0be5bf76-8669-4730-b8e7-585e30825ed0",
+			"type": "Route",
+			"isContainer": false,
+			"name": "main",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "main",
+				"x": 482.06309303580383,
+				"y": 240.2905806034518,
+				"page": "saved"
+			},
+			"parent": "349ad176-bd6e-48da-9e9d-0961d32d6ca5"
+		},
 		"17c151f5-0fd6-4472-8177-ad6c97524311": {
 			"id": "17c151f5-0fd6-4472-8177-ad6c97524311",
 			"type": "StackRouter",
@@ -182,10 +216,10 @@
 			"isDirty": false,
 			"props": {
 				"path": "profile",
-				"x": 358.4434390758071,
-				"y": 0.3228164691516895,
-				"homeRoute": "inprogress",
-				"to": "inprogress"
+				"x": 434.34651214190217,
+				"y": 2.2203932958040724,
+				"homeRoute": "main",
+				"to": "main"
 			},
 			"parent": "045d10c0-6f69-48f9-b39f-da8ef9a06b9d"
 		},
